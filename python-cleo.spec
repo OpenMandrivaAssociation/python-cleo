@@ -10,13 +10,13 @@ BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildArch:	noarch
 
 %description
 Cleo allows you to create beautiful and testable command-line interfaces.
 
 %files
-%license LICENSE.txt
 %doc README.md
 %{py_sitedir}/cleo
 %{py_sitedir}/cleo-*.*-info
