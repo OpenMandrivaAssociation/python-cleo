@@ -1,7 +1,7 @@
 Summary:	Create beautiful and testable command-line interfaces for Python
 Name:		python-cleo
-Version:	2.0.1
-Release:	2
+Version:	2.1.0
+Release:	1
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/cleo/
